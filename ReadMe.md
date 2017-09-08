@@ -4,51 +4,80 @@ Projet de test git
 
 ## Line de commande
 
+Initialisation du repertoire:
 ```bash
-git init
+$ git init
 ```
-Initialisation du repertoire
 
+Avoir le status de git:
 ```
-git status
+$ git status
 ```
-Avoir le status de git
 
+voir les commits:
 ```
-git branch
+$ git log
 ```
-lister toutes les branches
 
+lister toutes les branches:
 ```
-git branch [maBranche]
+$ git branch
 ```
-créer nouvelle branche
 
+créer nouvelle branche:
 ```
-git checkout [maBranche]
+$ git branch [maBranche]
 ```
-swicher sur la branche
 
+swicher sur la branche:
 ```
-git checkout [SHA]
+$ git checkout [maBranche]
 ```
-swicher sur la branche
 
+positionner sur un commit:
 ```
-git add filename]
-git add .
+$ git checkout SHADuCommit
 ```
-ajouter le(s) ficher(s) dans l'index pour preparer le commit
 
+"revert" un commit, créer un nouveau commit qui fait l'inverse du précédent:
+```
+$ git revert SHADuCommit
+```
 
+ajouter le(s) ficher(s) dans l'index pour preparer le commit:
 ```
-git commit -m "label du commit"
+$ git add filename]
+$ git add .
 ```
-commit des modifications
 
+commit des modifications:
 ```
-git blame [filename]
-git blame -L 10,15 [filename]
+$ git commit -m "label du commit"
 ```
-Avoir ligne par ligne l'autor et le commit
+
+Envoyer sur le remote les commits:
+```
+$ git push -u origin
+```
+
+recuperer depuis le remote les commits:
+```
+$ git pull origin
+```
+
+Avoir ligne par ligne l'autor et le commit:
+```
+$ git blame [filename]
+$ git blame -L 10,15 [filename]
+```
+
+voir le modification d'un commit:
+```
+$ git show [SHA:266ba62d^]
+```
+
+Permet de resoudre des confits, en ouvrant winmerge:
+```
+$ git mergetool --tool=winmerge
+```
 
