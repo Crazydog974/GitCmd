@@ -14,19 +14,30 @@ Avoir le status de git:
 $ git status
 ```
 
-voir les commits:
+voir les commits :
 ```
 $ git log
 ```
 
-lister toutes les branches:
+voir le detail d'un commit :mag: :
+```
+$ git show [SHA:266ba62d^]
+```
+
+lister toutes les branches :herb: :
 ```
 $ git branch
 ```
 
-créer nouvelle branche:
+créer nouvelle branche :seedling: :
 ```
 $ git branch [maBranche]
+```
+
+
+supprimer une branche :leaves: :
+```
+$ git branch -d [maBranche]
 ```
 
 swicher sur la branche:
@@ -39,7 +50,7 @@ positionner sur un commit :camera::
 $ git checkout SHADuCommit
 ```
 
- *"revert"* un commit :underage:, créer un nouveau commit qui fait l'inverse du précédent :camera::boom: :
+ *"revert"* un commit :underage:, créer un nouveau commit qui fait l'inverse du précédent :back::
 ```
 $ git revert SHADuCommit
 ```
@@ -50,7 +61,7 @@ $ git add filename]
 $ git add .
 ```
 
-Commit des modifications :white_check_mark::
+:camera: Commit des modifications :white_check_mark::
 ```
 $ git commit -m "label du commit"
 ```
