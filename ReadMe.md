@@ -1,10 +1,10 @@
 # Projet TEST GIT
 
-Projet de test
+Projet de test git
 
 ## Line de commande
 
-```Console
+```bash
 git init
 ```
 Initialisation du repertoire
