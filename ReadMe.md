@@ -4,7 +4,7 @@ Projet de test git :sunglasses:
 
 ## Line de commande :metal:
 
-Initialisation du repertoire:
+Initialisation du repertoire :sparkles::
 ```bash
 $ git init
 ```
@@ -34,12 +34,12 @@ swicher sur la branche:
 $ git checkout [maBranche]
 ```
 
-positionner sur un commit:
+positionner sur un commit :camera::
 ```
 $ git checkout SHADuCommit
 ```
 
- *"revert"* un commit :underage:, créer un nouveau commit qui fait l'inverse du précédent :boom: :
+ *"revert"* un commit :underage:, créer un nouveau commit qui fait l'inverse du précédent :camera::boom: :
 ```
 $ git revert SHADuCommit
 ```
@@ -50,12 +50,12 @@ $ git add filename]
 $ git add .
 ```
 
-Commit des modifications:
+Commit des modifications :white_check_mark::
 ```
 $ git commit -m "label du commit"
 ```
 
-Envoyer sur le remote les commits:
+Envoyer sur le remote les commits :clap::clap: :
 ```
 $ git push -u origin
 ```
