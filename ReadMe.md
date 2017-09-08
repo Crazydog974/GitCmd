@@ -44,7 +44,7 @@ $ git checkout SHADuCommit
 $ git revert SHADuCommit
 ```
 
-ajouter le(s) ficher(s) dans l'index pour preparer le commit:
+ajouter le(s) ficher(s) dans l'index pour preparer le commit :heavy_plus_sign: :
 ```
 $ git add filename]
 $ git add .
@@ -60,23 +60,23 @@ Envoyer sur le remote les commits :clap::clap: :
 $ git push -u origin
 ```
 
-recuperer depuis le remote les commits:
+recuperer depuis le remote les commits :arrow_down::
 ```
 $ git pull origin
 ```
 
-Avoir ligne par ligne l'autor et le commit:
+Avoir ligne par ligne l'autor et le commit :mag_right: :
 ```
 $ git blame [filename]
 $ git blame -L 10,15 [filename]
 ```
 
-voir le modification d'un commit:
+voir le modification d'un commit :mag: :
 ```
 $ git show [SHA:266ba62d^]
 ```
 
-Permet de resoudre des confits, en ouvrant winmerge :scissors: :
+Permet de resoudre des confits, en ouvrant winmerge :wrench: :
 ```
 $ git mergetool --tool=winmerge
 ```
