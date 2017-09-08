@@ -1,60 +1,54 @@
-# Project TEST
+# Projet TEST GIT
 
-One Paragraph of project description goes here
+Projet de test
 
-## Getting Started
+## Line de commande
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+```Console
+git init
+```
+Initialisation du repertoire
 
 ```
-Give examples
+git status
 ```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
+Avoir le status de git
 
 ```
-Give the example
+git branch
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+lister toutes les branches
 
 ```
-Give an example
+git branch [maBranche]
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
+créer nouvelle branche
 
 ```
-Give an example
+git checkout [maBranche]
 ```
+swicher sur la branche
 
-## Deployment
+```
+git checkout [SHA]
+```
+swicher sur la branche
 
-Add additional notes about how to deploy this on a live system
+```
+git add filename]
+git add .
+```
+ajouter le(s) ficher(s) dans l'index pour preparer le commit
 
-## Built With
+
+```
+git commit -m "label du commit"
+```
+commit des modifications
+
+```
+git blame [filename]
+git blame -L 10,15 [filename]
+```
+Avoir ligne par ligne l'autor et le commit
 
