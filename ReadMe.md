@@ -24,6 +24,12 @@ voir le detail d'un commit :mag: :
 $ git show [SHA:266ba62d^]
 ```
 
+
+clone un repository
+```
+$ git clone lienFourniParGitHub 
+```
+
 lister toutes les branches :herb: :
 ```
 $ git branch
